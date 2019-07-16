@@ -1,5 +1,5 @@
 parameters:
-  buildConfiguration: 'Debug'
+  buildConfiguration: 'Release'
  
 steps:
   displayName: 'Build the project - ${{ parameters.buildConfiguration }}'
