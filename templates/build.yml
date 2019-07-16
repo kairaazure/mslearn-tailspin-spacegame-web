@@ -1,8 +1,7 @@
 parameters:
-  buildConfiguration: 'Release'
-
+  #buildConfiguration: 'Release'
+  #hfbvjhsn
 steps:
-- task: DotNetCoreCLI@2
   displayName: 'Build the project - ${{ parameters.buildConfiguration }}'
   inputs:
     command: 'build'
@@ -17,3 +16,4 @@ steps:
     publishWebProjects: false
     arguments: '--no-build --configuration ${{ parameters.buildConfiguration }} --output $(Build.ArtifactStagingDirectory)/${{ parameters.BuildConfiguration }}'
     zipAfterPublish: true
+  
