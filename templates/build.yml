@@ -1,6 +1,6 @@
-#parameters:
-  #buildConfiguration: 'Release'
-  #hfbvjhsn
+parameters:
+  buildConfiguration: ''
+ 
 steps:
   displayName: 'Build the project - ${{ parameters.buildConfiguration }}'
   inputs:
