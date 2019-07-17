@@ -1,4 +1,3 @@
-[![Build Status](https://dev.azure.com/yuvaanagarwal2019/Space%20Game%20-%20web%20-%20Pipeline/_apis/build/status/kairaazure.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/yuvaanagarwal2019/Space%20Game%20-%20web%20-%20Pipeline/_build/latest?definitionId=6&branchName=master)
 
 # Contributing
 
