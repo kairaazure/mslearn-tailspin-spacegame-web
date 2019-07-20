@@ -8,13 +8,13 @@ stages:
       vmImage: 'Ubuntu-16.04'
       demands:
         - npm
-   steps:
-- task: UseDotNet@2
-  displayName: 'Use .NET Core sdk'
-  inputs:
-    packageType: sdk
-    version: 2.2.203
-    installationPath: $(Agent.ToolsDirectory)/dotnet
+    steps:
+    - task: DotNetCoreInstaller@0
+      displayName: 'Use .NET Core SDK $(dotnetSdkVersion)'
+      inputs:
+        packageType: sdk
+        version: 2.2.203
+        installationPath: $(Agent.ToolsDirectory)/dotnet
 
     - task: Npm@1
       displayName: 'Run npm install'
