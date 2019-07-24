@@ -6,8 +6,13 @@
       "value": "GEN-USER"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
-    },
+    "reference": {
+        "keyVault": {
+        "id": "/subscriptions/775a3f2b-e2b4-4303-b774-044d11ec9cbc/resourceGroups/yuvaan_rg/providers/Microsoft.KeyVault/vaults/YuvaanKeyVault"
+        },
+        "secretName": "vmAdminPassword"
+    }
+},
     "dnsLabelPrefix": {
       "value": "GEN-UNIQUE"
     }
